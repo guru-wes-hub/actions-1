@@ -16,7 +16,7 @@ jobs:
          # run: sudo chmod +x ascii-script.sh
 
         - name: execute script
-          run: ./ascii-script.sh
+          run:  sudo ./ascii-script.sh
           
         
 
