@@ -12,8 +12,8 @@ jobs:
         - name: List Repo files 
           run: ls -ltra
 
-        - name: make script executable
-          run: sudo chmod +x ascii-script.sh
+        #- name: make script executable
+         # run: sudo chmod +x ascii-script.sh
 
         - name: execute script
           run: ./ascii-script.sh
