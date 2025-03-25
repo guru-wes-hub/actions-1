@@ -12,7 +12,7 @@ jobs:
         - name: List Repo files 
           run: ls -ltra
 
-        - name: execute shell script
+        - name: make script executable
           run: sudo chmod +x ascii-script.sh
 
         - name: execute script
